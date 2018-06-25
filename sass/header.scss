@@ -1,0 +1,45 @@
+.nav {
+	background: $background-nav-footer;
+	height: 80px;
+	overflow: hidden;
+}
+
+.nav__logo {
+	font-family: $fonts-logo;
+	color: #FFF;
+	font-size: 35px;
+	line-height: 80px;
+	border: 2px solid #FFF;
+	border-radius: 3px;
+	padding: 5px;
+	margin-left: 50px;
+	text-transform: uppercase;	
+}	
+.nav__list {
+	float: right;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+.nav__element {
+	float: left;
+	line-height: 80px;
+	&:hover {
+		background-color: #FFFFFF;
+		color: #FFFFFF;
+	}						
+}
+.nav__link {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: $color-nav-jumbotron-object-footer-foot;
+	font-family: $fonts-nav-team-foot;
+	font-weight: 500;
+	font-size: 18px;
+	padding: 25px 30px;
+	&:hover {
+		color: #000000;					
+	}
+}
+	
