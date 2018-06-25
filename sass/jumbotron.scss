@@ -1,0 +1,19 @@
+/*--SECTION JUMBOTRON--*/
+
+
+.jumbotron {
+	background-image: $background-jumbotron;
+	background-size: cover;
+	height: 600px;
+}
+.jumbotron__text {
+	float: right;
+	font-family: $fonts-jumbotron;
+	width: 600px;
+	font-size: 40px;
+	color: $color-nav-jumbotron-object-footer-foot;
+	margin-top: 200px;
+	padding: 40px;
+	background-color: rgba(63, 63, 63, 0.6);
+	text-align: left;
+}
